@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -12,6 +13,7 @@ header{
     display: flex;
     height: 120px;
     justify-content: space-between;
+    padding: 20px;
 }
 
 .logo-nav{
@@ -32,8 +34,9 @@ header{
 main{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     margin-top: 100px;
+    justify-content: center;
 }
 
 .delivery{
@@ -44,12 +47,14 @@ main{
     height: 500px;
     width: 45%;
     /* width: 490px; */
+    border-radius: 5px;
+    margin: 5px;
 }
 
 .delivery p{
     position: relative;
     color: red;
-    font-weight: bold;
+    font-weight: 700;
     left: 40px;
     font-size: 24px;
 }
@@ -66,6 +71,9 @@ main{
     height: 500px;
     width: 45%;
     background-color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 5px;
 }
 
 .podio h2{
@@ -85,6 +93,7 @@ footer{
     background-color: #222222;
     color: white;
     justify-content: space-between;
+    padding: 30px;
 }
 
 #nav-footer{
